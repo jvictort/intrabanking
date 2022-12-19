@@ -26,7 +26,7 @@ body {
   display: flex;
   align-items: center;
   height: 10vh;
-  padding: 25px;
+  padding: 1.5em;
   /* border: 1px solid blue; */
 }
 
@@ -44,9 +44,117 @@ body {
 }
 
 .main-container {
-  height: 80vh;
-  padding: 25px;
+  /* border: 1px solid green */
 }
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding: 1.5em;
+  /* border: 1px solid blue */
+}
+
+.main-text {
+  width: 60%;
+  padding: 1.5em;
+  text-align: justify;
+  color: var(--primary-text-color);
+  /* border: 1px solid blue */
+}
+
+.main-text h1 {
+  font-size: 2.4em;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.main-text h2 {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.main-text p {
+  font-size: 1.1em;
+  font-weight: 400;
+  margin-top: 1.5em;
+}
+
+.main-text div {
+  text-align: center;
+}
+
+.main-text div button {
+  padding: 1em 3em;
+  border-radius: 10em;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-text-color);
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-top: 1.5em;
+  letter-spacing: 0.15em;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s
+}
+
+.main-text div button:hover {
+  transform: translateY(-0.25em);
+}
+
+.main-image {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue */
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 70%;
+  box-shadow: 3px 12px 15px 3px rgba(0,0,0,0.4);
+  transition: 0.5s
+  /* border: 1px solid blue */
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+}
+
+.image-container {
+  height: 80%;
+  border-bottom: 2px solid var(--secondary-text-color);
+  /* border: 1px solid blue; */
+}
+
+.image-container img {
+  height: 100%;
+  width: 40%;
+}
+
+.text-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 20%;
+    /* border: 1px solid blue; */
+}
+
+/* .text-image .circle {
+  background: var(--secondary-text-color);
+  border: 0;
+  border-radius: 50%;
+  height: 5em;
+  width: 5em;
+  text-align: center;
+  line-height: center;
+  color: white
+} */
+
+
+
 
 .footer-container {
   display: flex;
@@ -64,7 +172,7 @@ body {
 
 .footer-container .links-list li {
   font-size: 1.5em;
-  margin: 0px 25px;
+  margin: 0 1.5em;
   transition: 0.5s;
 }
 
